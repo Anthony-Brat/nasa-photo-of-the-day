@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import PictureFrame from "./Components/PictureFrame"
+import PictureFrame from "./Components/PictureFrame";
 
 function App() {
   return (
