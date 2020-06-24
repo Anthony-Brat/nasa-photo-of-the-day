@@ -18,19 +18,15 @@ const [pod, setPod] = useState([]);
   }, []);
 
         return(
-            <div className="nasaPod">
-      {pod.map(nasaPod => {
-        return(
             <Picture
-                key={nasaPod.id} 
-                title={nasaPod.title}
-                date={nasaPod.date}
-                url={nasaPod.url}
+                key={pod.id} 
+                title={pod.title}
+                date={pod.date}
+                url={pod.url}
+                explanation={pod.explanation}
                 />
             );
-        })}
-        </div>
-        );
+        
   
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Picture =  ({ title, date, url}) => {
+const Picture =  ({title, date, url, explanation}) => {
     return(
         
        <div>
@@ -9,7 +9,9 @@ const Picture =  ({ title, date, url}) => {
            <img 
            className= "img" 
            src= {url}
-           alt="Todays Choice"/>
+           alt="Todays Selection"/>
+           <p>{explanation}</p>
+
            </div>
     );
 };
